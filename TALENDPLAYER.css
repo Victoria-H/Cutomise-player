@@ -64,6 +64,7 @@ body,td
 
 #top_credit a
 {
+	display:none;
 	font-size: 12px;
 	font-family: Lucida Grande,Lucida,Verdana,sans-serif;
 	color: #283F5E;	
