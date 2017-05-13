@@ -5,6 +5,10 @@ body,td
 
 }
 
+html[Attributes Style] {
+    -webkit-locale: "en_EN";
+}
+
 /*left menu (table of contents) elements*/
 .menulink
 {
