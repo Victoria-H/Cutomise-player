@@ -6,7 +6,7 @@ body,td
 }
 
 html[Attributes Style] {
-    -webkit-locale: "en_EN";
+    -webkit-locale: "en_US";
 }
 
 /*left menu (table of contents) elements*/
