@@ -1,6 +1,6 @@
 body,td
 {
-	font-size: 10pt;
+	font-size: 12pt;
 	font-family: Tahoma, Sans-Serif;
 
 }
@@ -88,7 +88,7 @@ html[Attributes Style] {
 	font-family: Lucida Grande,Lucida,Verdana,sans-serif;
 	font-size: 10px;
 	font-variant: normal;
-	color: #DFA611;
+	color: blue;
 	font-weight:bold;
 	text-decoration:none;	
 	cursor: hand;
