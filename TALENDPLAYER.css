@@ -151,7 +151,7 @@ a.enabledTopMenuItem:hover { color:#BBBBBB; text-decoration:none; }
 #closeSco {background:transparent url(images/close.png) no-repeat left 3px; padding:12px 0 0 30px;height:30px;display:block !important;margin-top:3px;}
 #returnToLmsNoDebug {background:transparent url(images/noDebug.png) no-repeat left 3px; padding:9px 0 0 32px;height:30px;display:block !important;margin-top:1px;
 	width:90px;}
-#returnToLms {background:transparent url(images/exit.png) no-repeat left 3px; padding:12px 0 0 32px;height:30px;display:block !important;margin-top:3px;}
+#returnToLms {background:transparent url(images/home.png) no-repeat left 3px; padding:12px 0 0 32px;height:30px;display:block !important;margin-top:3px;}
 #help {background:transparent url(images/help.png) no-repeat left 3px; padding:12px 0 0 30px;height:30px;display:block !important;margin-top:3px;}
 
 /*Progress Bar Styles*/
@@ -232,6 +232,10 @@ a.enabledTopMenuItem:hover { color:#BBBBBB; text-decoration:none; }
 	cursor: hand;
 	cursor: pointer;
 	font-weight:bold;
+}
+
+#closeSco {
+display:none;	
 }
 
 .player_border 
