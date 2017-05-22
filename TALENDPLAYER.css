@@ -54,7 +54,7 @@ body,td
 
 #top_title
 {
-	font-size: 25px;
+	font-size: 0px;
 	font-family: 'helvetica',sans-serif;
 	color: #666666;	
 	position:absolute;
@@ -63,21 +63,22 @@ body,td
 }
 
 #courseTitleText {
-	display:none;
+	display:block;
 	color:#666666;
 	margin:5px;
 
 }
 
-/*
+
 #courseTitleText::before {
 	content:url('images/logo.png')
 }
-*/
 
+/*
 #top_title::after {
-	content:url('images/logo.png')
+	content:url('images/logo.png');
 }
+*/
 
 .progress {
 	display:none;
