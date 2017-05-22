@@ -145,8 +145,8 @@ a.enabledTopMenuItem:hover { color:#BBBBBB; text-decoration:none; }
     height:100%;
 }
 
-#next {background:transparent url(images/nextBtn.png) no-repeat left 4px; height:30px; padding:12px 0 0 55px; display:block !important;}
-#previous {background:transparent url(https://github.com/Victoria-H/Cutomise-player/master/images/arrow.png) no-repeat left 4px; height:30px; padding:12px 0 0 55px; display:block !important;}
+#next {background:transparent url(images/arrow.png) no-repeat left 4px; height:30px; padding:12px 0 0 55px; display:block !important;}
+#previous {background:transparent url(arrowback.png) no-repeat left 4px; height:30px; padding:12px 0 0 55px; display:block !important;}
 #viewDebug {background:transparent url(images/debugLog_30.png) no-repeat left 3px; padding:12px 0 0 32px;height:30px;display:block !important;margin-top:3px;}
 #closeSco {background:transparent url(images/close.png) no-repeat left 3px; padding:12px 0 0 30px;height:30px;display:block !important;margin-top:3px;}
 #returnToLmsNoDebug {background:transparent url(images/noDebug.png) no-repeat left 3px; padding:9px 0 0 32px;height:30px;display:block !important;margin-top:1px;
