@@ -154,9 +154,12 @@ a.enabledTopMenuItem:hover { color:#BBBBBB; text-decoration:none; }
 #tt_top_navMenu td {vertical-align:middle;}
 #tt_left
 {
-	background: #025497 url(iages/leftBtm_BG.png) no-repeat scroll left 0;
-    height:100%;
+background: #025497 url(images/background.png) no-repeat scroll left 0;
+    background-position: right bottom;
+    height: 100%;
+    background-attachment: fixed;
 }
+	
 
 #next {background:transparent url(images/arrow.png) no-repeat left 4px; height:30px; padding:12px 0 0 55px; display:block !important;}
 #previous {background:transparent url(images/arrowback.png) no-repeat left 4px; height:30px; padding:12px 0 0 55px; display:block !important;}
