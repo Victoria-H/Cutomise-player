@@ -1,25 +1,22 @@
 body,td
 {
 	font-size: 12pt;
-	font-family: Tahoma, Sans-Serif;
+	font-family: 'helvetica', sans-serif;
+	letter-spacing:0.5px;
 
-}
-
-html[Attributes Style] {
-    -webkit-locale: "en_US";
 }
 
 /*left menu (table of contents) elements*/
 .menulink
 {
 	font-size: 12px;
-	font-family: Lucida Grande,Lucida,Verdana,sans-serif
+	font-family: 'helvetica',sans-serif
 }
 
 .enabledMenulink
 {
 	font-size: 12px;
-	font-family: Lucida Grande,Lucida,Verdana,sans-serif;
+	font-family: helvetica,sans-serif;
 	text-decoration: underline;
 	color: #FEFEFE;
 	
@@ -50,20 +47,39 @@ html[Attributes Style] {
 .title
 {
 	font-size: 14px;
-	font-family: Lucida Grande,Lucida,Verdana,sans-serif;
-	color: #DDDDDD;	
+	font-family:'helvetica',sans-serif;
+	color: #666666;	
 	font-weight: bold;
 }
 
 #top_title
 {
-	font-size: 14px;
-	font-family: Lucida Grande,Lucida,Verdana,sans-serif;
-	color: #DDDDDD;	
-	font-weight: bold;
+	font-size: 25px;
+	font-family: 'helvetica'',sans-serif;
+	color: #666666;	
 	position:absolute;
 	top:5px;
 	/*left:20px;*/
+}
+
+#courseTitleText {
+
+	color:#666666;
+	margin:5px;
+
+}
+
+.progress {
+	display:none;
+}
+
+.progressText {
+	display:none;
+}
+
+#menuPreviousText, #menuNextText, #returnToLmsText {
+	display:none;
+
 }
 
 #top_credit a
@@ -87,8 +103,8 @@ html[Attributes Style] {
 {
 	font-family: Lucida Grande,Lucida,Verdana,sans-serif;
 	font-size: 10px;
-	font-variant: normal;
-	color: blue;
+	font-variant: small-caps;
+	color: #DFA611;
 	font-weight:bold;
 	text-decoration:none;	
 	cursor: hand;
@@ -108,12 +124,12 @@ a.enabledTopMenuItem:hover { color:#BBBBBB; text-decoration:none; }
 /*background for the entire player*/
 .playerBody
 {
-	background-color: #DFE5EA;
+	background-color: #ffffff;
 }
 
 #tt_top
 {
-	background-color:#39648F;
+	background-color:#ffffff;
 }
 
 #tt_top_navMenu
@@ -125,12 +141,12 @@ a.enabledTopMenuItem:hover { color:#BBBBBB; text-decoration:none; }
 #tt_top_navMenu td {vertical-align:middle;}
 #tt_left
 {
-	background: #39648F url(images/leftBtm_BG.png) no-repeat scroll left 0;
+	background: #025497 url(iages/leftBtm_BG.png) no-repeat scroll left 0;
     height:100%;
 }
 
-#next {background:transparent url(images/kettle.jpg) no-repeat left 4px; height:30px; padding:12px 0 0 55px; display:block !important;}
-#previous {background:transparent url(images/prevBtn.png) no-repeat left 4px; height:30px; padding:12px 0 0 55px; display:block !important;}
+#next {background:transparent url(images/nextBtn.png) no-repeat left 4px; height:30px; padding:12px 0 0 55px; display:block !important;}
+#previous {background:transparent url(https://github.com/Victoria-H/Cutomise-player/master/images/arrow.png) no-repeat left 4px; height:30px; padding:12px 0 0 55px; display:block !important;}
 #viewDebug {background:transparent url(images/debugLog_30.png) no-repeat left 3px; padding:12px 0 0 32px;height:30px;display:block !important;margin-top:3px;}
 #closeSco {background:transparent url(images/close.png) no-repeat left 3px; padding:12px 0 0 30px;height:30px;display:block !important;margin-top:3px;}
 #returnToLmsNoDebug {background:transparent url(images/noDebug.png) no-repeat left 3px; padding:9px 0 0 32px;height:30px;display:block !important;margin-top:1px;
