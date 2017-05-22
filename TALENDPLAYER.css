@@ -63,13 +63,17 @@ body,td
 }
 
 #courseTitleText {
-
+	display:none;
 	color:#666666;
 	margin:5px;
 
 }
 
 #courseTitleText::before {
+	content:url('images/logo.png')
+}
+
+#topTitle::before {
 	content:url('images/logo.png')
 }
 
